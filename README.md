@@ -1,6 +1,9 @@
 # LeaderElectionForRingTopology
 Leader Election For Ring Topology
 
+Group Members:
+Balwinder Singh Hayer & Saytu Singh
+
 -Write a program using MPI to simulate a leader election algorithm for a ring topology
 -Motivation was that we wanted to learn more about ring topology use this project to use on our resume 
 
@@ -9,9 +12,6 @@ Send its rank to its neighbors
 Receive ranks from its neighbors
 If the process’s rank is the lowest of the 3, then it will set itself to passive
 If the process’s neighbor’s ranks is equal to its own rank, then it will break out of loop and elect itself LEADER.
-
-Group Members:
-Balwinder Singh Hayer & Saytu Singh
 
 How to Execute program:
 
